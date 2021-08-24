@@ -1,4 +1,4 @@
-FROM node:14.16.0
+FROM node:14.17.5
 
 RUN apt-get update && apt-get -y upgrade
 RUN npm install --global lodash@4.17.15
